@@ -1,3 +1,5 @@
+package pedidos
+
 class Cliente (
     val nombre: String,
     val cedula: String,

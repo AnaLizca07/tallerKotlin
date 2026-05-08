@@ -1,3 +1,5 @@
+package pedidos
+
 class Pedido (
     val cliente : Cliente,
     var descuento: Double = 0.0
@@ -54,7 +56,7 @@ class Pedido (
 
     override fun toString(): String {
         var resultado = "===== PEDIDO =====\n"
-        resultado = resultado + "Cliente: " + cliente.nombre + "\n"
+        resultado = resultado + "pedidos.Cliente: " + cliente.nombre + "\n"
         resultado = resultado + "Cedula: " + cliente.cedula + "\n"
         resultado = resultado + "Telefono: " + cliente.telefono + "\n\n"
         resultado += "Items:\n"

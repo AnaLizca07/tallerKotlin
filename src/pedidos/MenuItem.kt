@@ -1,3 +1,5 @@
+package pedidos
+
 class MenuItem (
     val id: Int,
     val nombre: String,

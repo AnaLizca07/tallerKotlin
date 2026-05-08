@@ -1,3 +1,5 @@
+package pedidos
+
 fun main() {
 
     // Crear el menu
@@ -265,8 +267,8 @@ fun generarReporte(pedidos: List<Pedido>) {
         val numItems = pedido.cantidadItems()
         val totalPedido = pedido.total()
 
-        println("\nPedido " + (i + 1).toString() + ":")
-        println("  Cliente: " + pedido.cliente.nombre)
+        println("\npedidos.Pedido " + (i + 1).toString() + ":")
+        println("  pedidos.Cliente: " + pedido.cliente.nombre)
         println("  Items: $numItems")
         println("  Total: $$totalPedido")
 
